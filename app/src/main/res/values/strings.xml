@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Input Nilai Mahasiswa</string>
+    <string name="proses_input_nilai" />
+    <string name="mahasiswa" />
+    <string name="pilih_mata_kuliah" />
+    <string name="next" />
+</resources>

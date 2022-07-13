@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Input_Nilai">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Input Nilai Mahasiswa"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="30dp"/>
+        <EditText
+            android:id="@+id/nim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="15dp"
+            android:inputType="number"
+            android:hint="Input NIM"/>
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Input Nama"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="15dp"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/presensi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Input Jum Presensi Kehadiran"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="15dp"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/tugas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Input Nilai Tugas"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="15dp"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/uts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Input Nilai UTS"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="15dp"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/uas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Input Nilai UAS"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="15dp"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:width="100dp"
+        android:text="Submit"
+        android:textStyle="bold" />
+</LinearLayout>

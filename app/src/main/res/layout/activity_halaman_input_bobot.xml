@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Halaman_Input_Bobot">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Bobot Nilai"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="30dp"/>
+        <TextView
+            android:id="@+id/nim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="15dp"
+            android:inputType="number"
+            android:hint="Presensi"/>
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Tugas"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="15dp"
+            android:inputType="number"/>
+        <TextView
+            android:id="@+id/presensi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="UTS"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="15dp"
+            android:inputType="number"/>
+        <TextView
+            android:id="@+id/tugas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="UAS"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="15dp"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="25sp"
+        android:layout_marginTop="25sp"
+        android:text="Proses Hitung Nilai Akhir"
+        android:textStyle="bold"/>
+
+</LinearLayout>
